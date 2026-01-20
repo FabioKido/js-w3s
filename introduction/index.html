@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intrução ao JS</title>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+    </script>
+    <script src="https://www.w3schools.com/js/myScript.js"></script>
+</head>
+
+<body>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+    <button type="button" onclick="myFunction()">Clique aqui!</button>
+
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript";
+    </script>
+
+    <script src="script-01.js"></script>
+
+    <!-- Colocar os scripts na parte inferior do elemento <body> melhora a velocidade de exibição, 
+        pois a interpretação dos scripts torna a exibição mais lenta. -->
+</body>
+
+</html>

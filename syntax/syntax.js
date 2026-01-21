@@ -78,3 +78,4 @@ a * 10 // 50
 "John" + " " + "Doe" // 'Jonh Doe' Concatena strings
 
 // JavaScript programmers tend to use lower camel case: 'lastName'
+// JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.

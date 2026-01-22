@@ -42,7 +42,7 @@ var m = 10;
   // Here m is 2
 }
 
-// Here m is 2
+console.log(m); // Here m is 2
 
 // Redeclaring a variable using the let keyword can solve this problem.
 // Redeclaring a variable inside a block will not redeclare the variable outside the block.
@@ -54,20 +54,20 @@ let q = 10;
   // Here q is 2
 }
 
-// Here q is 10
+console.log(q); // Here q is 10
 
 // With let, redeclaring a variable in the same block is NOT allowed:
-var x = 2;   // Allowed
-let x = 3;   // Not allowed
+var t = 2;   // Allowed
+let t = 3;   // Not allowed
 
 {
-  let x = 2;   // Allowed
-  let x = 3;   // Not allowed
+  let t = 2;   // Allowed
+  let t = 3;   // Not allowed
 }
 
 {
-  let x = 2;   // Allowed
-  var x = 3;   // Not allowed
+  let t = 2;   // Allowed
+  var t = 3;   // Not allowed
 }
 
 // Redeclaring a variable with let, in another block, IS allowed:

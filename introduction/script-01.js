@@ -10,7 +10,7 @@ document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
 document.getElementById("demo").innerText = "Hello World";
 document.write(5 + 6); // Deprecado
 alert(5 + 6); // window.alert(5 + 6) window keyword is optional
-console.log() // .error, etc
+console.log() // Variantes: .error, .table, etc
 
 // Print the content of the current window.
 print() // window.print() window keyword is optional

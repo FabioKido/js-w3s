@@ -139,6 +139,7 @@ switch (new Date().getDay()) {
  */
 
 let x = "0";
+
 switch (x) {
   case 0:
     text = "Off";
@@ -149,3 +150,5 @@ switch (x) {
   default:
     text = "No value found";
 }
+
+console.log(text); // No value found
